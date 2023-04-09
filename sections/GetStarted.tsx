@@ -36,7 +36,7 @@ const GetStarted = () => {
         >
           <TypingText title="| How Metaversus Works" textStyles="asdfasdf" />
           <TitleText
-            title={<>Get started with just a few click!</>}
+            title={<>Get started with just a few clicks!</>}
             textStyles="asdfasdf"
           />
           <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
