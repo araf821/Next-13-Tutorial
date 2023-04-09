@@ -4,6 +4,11 @@ import { motion } from "framer-motion";
 import { textContainer, textVariant2 } from "../utils/motion";
 
 type TextProps = {
+  title: string;
+  textStyles: string;
+};
+
+type StylesProps = {
   title: any;
   textStyles: string;
 };
@@ -21,7 +26,7 @@ export const TypingText: React.FC<TextProps> = ({ title, textStyles }) => (
   </motion.p>
 );
 
-export const TitleText: React.FC<TextProps> = ({ title, textStyles }) => (
+export const TitleText: React.FC<StylesProps> = ({ title, textStyles }) => (
   <motion.h2
     variants={textVariant2}
     initial="hidden"
