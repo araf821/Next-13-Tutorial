@@ -172,3 +172,10 @@ export const footerVariants = {
     },
   },
 };
+
+/**
+ * absolute w-full h-full object-cover rounded-[24px]
+ * w-full h-full object-cover rounded-[24px]
+ * 
+ * 
+ */

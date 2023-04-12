@@ -33,7 +33,7 @@ const ExploreCard: React.FC<CardProps> = ({
       <img
         src={imgUrl}
         alt="title"
-        className="w-full h-full object-cover rounded-[24px]"
+        className="absolute w-full h-full object-cover rounded-[24px]"
       />
       {active !== id ? (
         <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
